@@ -20,7 +20,7 @@ fi
 
 
 if [ ! -d linux-rockchip ]; then
-    git clone --depth=1 --progress -b linux-5.10-gen-rkr6 https://github.com/Nepal-Yin/linux-rockchip-kernel.git linux-rockchip
+    git clone --depth=1 --progress -b rk-5.10-rkr6 https://github.com/Nepal-Yin/linux-rockchip-kernel.git linux-rockchip
     if [ -f packages/linux/patches/series ] ;then
         for i in `cat packages/linux/patches/series`;do  
             echo "patch -d linux-rockchip -p1 < packages/linux/patches/$i";
