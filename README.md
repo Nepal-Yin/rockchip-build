@@ -1,15 +1,9 @@
-Good Good Study Day Day Up!
-
-Life is a fuking movie.
-
-nerver give up your life !!! 
-
 # rockchip-build
 this is build for rockchip soc.
 
 Now it can build for rk3568.
 
-you can build for embedfire-lubancat2
+you can build for embedfire-lubancat2n
 
 now you just can build ubuntu22.04 server and other is prepare to finish 
 
@@ -25,7 +19,7 @@ now you can do this to build image
 
 ```bash
 cd rockchip-build
-./build.sh --board=lubancat2
+./build.sh --board=lubancat-rk356x
 ```
 
 or to config your board
